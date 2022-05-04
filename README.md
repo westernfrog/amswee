@@ -6,7 +6,7 @@ A discord bot with mostly entertainment commands
 - Welcomes every new members with a cute animal pic
 - And play an special `two` player game
 
-
+>the development of this bot is still in progress
 
 
 
