@@ -11,7 +11,7 @@ class welcome(commands.Cog, name = "Welcome"):
     @commands.Cog.listener()
     async def on_member_join(self, member):
         async with aiohttp.ClientSession() as cs:
-                animals = ["dog","cat","panda","fox","koala","birb"]
+                animals = ["dog","cat"]
                 ani = random.choice(animals)
                 async with cs.get("https://some-random-api.ml/img/"+ani) as r:
                     data = await r.json()

@@ -23,20 +23,15 @@ class howfast(commands.Cog):
             await msg.edit(embed=third)
             await asyncio.sleep(2)
             await msg.edit(embed=fourth)
-            await msg.add_reaction("💛")
+            await msg.add_reaction("💜")
             
     @commands.Cog.listener()
     async def on_reaction_add(self, reaction, user):
-        if reaction.emoji == "💛" and user.name != "♡♡amswe♡♡":
+        if reaction.emoji == "💜" and user.name != "♡♡amswe♡♡":
             channel = reaction.message.channel
             win = Embed(title=f'{user.name} reacted first and won 🎉🎉', color=0x9b59b6)
             await channel.send(embed=win)
             
-        
-
-            
-           
-       
-    
+ 
 def setup(bot):
     bot.add_cog(howfast(bot))
