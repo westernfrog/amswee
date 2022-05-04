@@ -5,8 +5,10 @@
 - Replies to humans
 - Welcomes every new members with a cute animal pic
 - And play an special `two` player game
-***
+
 `The development of this bot is still in progress`
+***
+
 
 
 
