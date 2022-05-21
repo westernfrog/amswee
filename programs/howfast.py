@@ -23,18 +23,18 @@ class howfast(commands.Cog):
             await msg.edit(embed=third)
             await asyncio.sleep(2)
             await msg.edit(embed=fourth)
-            await msg.add_reaction("💜")
+            await msg.add_reaction("💛")
             
             def check(reaction, user):
-                return str(reaction.emoji) == '💜' and user != self.bot.user
+                return str(reaction.emoji) == '💛' and user != self.bot.user
             
             try:
                 reaction, user = await self.bot.wait_for('reaction_add', timeout=30, check=check)
-                win = Embed(description=f'{user.name} reacted first and won 🎉🎉', color=0x9b59b6)
+                win = Embed(description=f'**{user.name}** reacted first and won  🎠✨', color=0x9b59b6)
                 await ctx.send(embed=win)
             
             except asyncio.TimeoutError:
-                await ctx.send("You ran out of time!")
+                await ctx.send("> you ran out of time!")
                     
 def setup(bot):
     bot.add_cog(howfast(bot))

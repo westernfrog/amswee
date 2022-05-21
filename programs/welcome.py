@@ -26,9 +26,7 @@ class welcome(commands.Cog, name = "Welcome"):
     @commands.command()
     async def nick(self, ctx, m:discord.Member, *, newnick):
       await m.edit(nick=newnick)
-      e=discord.Embed(title="Nickname is now set to "+newnick, color=discord.Color.purple())
-      e.set_thumbnail(url=m.avatar_url)
-      await ctx.send(embed=e)
+      await ctx.send(f'> nickname is now set to {newnick}')
         
 def setup(bot):
     bot.add_cog(welcome(bot))
