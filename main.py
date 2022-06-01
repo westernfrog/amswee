@@ -26,7 +26,7 @@ async def loop():
                     embed = discord.Embed(title="this "+ani+" orders you to stay hydrated "+emo+emo,color=0x9b59b6)
                     embed.set_image(url=data['link'])
                     channel = client.get_channel(889003570890952737)
-                    await asyncio.sleep(5800)
+                    await asyncio.sleep(6800)
                     await channel.send(embed=embed)
                              
                 
