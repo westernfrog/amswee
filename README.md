@@ -1,6 +1,6 @@
 <img src="amswe.jpg">
 
-# amswe
+# amswe bot
 amswe is a discord bot written in `Python` language is maintained and hosted on `Heroku`.
 
 
