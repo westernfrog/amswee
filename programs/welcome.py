@@ -26,7 +26,7 @@ class welcome(commands.Cog, name = "Welcome"):
     @commands.command()
     async def nick(self, ctx, m:discord.Member, *, newnick):
       await m.edit(nick=newnick)
-      await ctx.send(f'> nickname is now set to {newnick}')
+      await ctx.send(f'> nickname is now set to **{newnick}**')
         
 def setup(bot):
     bot.add_cog(welcome(bot))
