@@ -1,3 +1,5 @@
+<img src="amswe.jpg">
+
 # amswe
 **A discord bot with mostly entertainment commands**
 - Summon a random meme at will
