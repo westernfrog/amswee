@@ -15,7 +15,7 @@ amswe is a discord bot written in `Python` language is maintained and hosted on 
 
 ***
 
-<p align=center>
+<p>
 Contributions are welcome <3 <br><br>
 Made with ❤️ in India.
 </p>
