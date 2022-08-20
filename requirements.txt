@@ -1,3 +1,5 @@
 discord==1.7.3
 praw
 aiohttp
+google-search-results
+
